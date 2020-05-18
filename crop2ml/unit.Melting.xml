@@ -14,25 +14,25 @@
 		<Input name="P_DKmax" description="difference between the maximum and the minimum melting rates" inputtype="parameter" parametercategory="constant" datatype="DOUBLE" default="0.0" min="0.0" max="5000.0" unit="mm °C-1 d-1" uri=""/>
 		<Input name="P_Kmin" description="minimum melting rate on 21 December" inputtype="parameter" parametercategory="constant" datatype="DOUBLE" default="0.0" min="0.0" max="5000.0" unit="mm °C-1 d-1" uri=""/>
 		<Input name="tavg" description="average temperature" inputtype="variable" variablecategory="auxiliary" datatype="DOUBLE" default="0.0" min="0.0" max="100.0" unit="°C" uri=""/>
-    </Inputs>
+        </Inputs>
 	<Outputs>
 		<Output name="M" description="snow in the process of melting" variablecategory="state" datatype="DOUBLE" min="0.0" max="500.0" unit="mm d-1" uri=""/>
 	</Outputs>
 	<Algorithm language="Cyml" platform="" filename="algo/pyx/Melting.pyx" />
 	<Parametersets>
-		<Parameterset name="paramerterSet1" description="set Parameters for TempMax unit" >
-            <Param name="P_Tmf">0.5</Param>
-            <Param name="P_DKmax">1.5</Param>
-            <Param name="P_Kmin">2.0</Param>
-		</Parameterset>
+	    <Parameterset name="paramerterSet1" description="set Parameters for TempMax unit" >
+                <Param name="P_Tmf">0.5</Param>
+                <Param name="P_DKmax">1.5</Param>
+                <Param name="P_Kmin">2.0</Param>
+	    </Parameterset>
 	</Parametersets>
 	<Testsets>
-        <Testset name="check snow model" parameterset = "paramerterSet1" description="some values in there" >
+            <Testset name="check snow model" parameterset = "paramerterSet1" description="some values in there" >
         	<Test name ="test_snow1">
-                <InputValue name="tavg">-0.5</InputValue>
-                <InputValue name="jul">1</InputValue>
-			    <OutputValue name="M" precision ="2">45.6</OutputValue>
+                    <InputValue name="tavg">-0.5</InputValue>
+                    <InputValue name="jul">1</InputValue>
+	            <OutputValue name="M" precision ="2">45.6</OutputValue>
         	</Test>
-        </Testset>
+            </Testset>
 	</Testsets>
 </ModelUnit>
