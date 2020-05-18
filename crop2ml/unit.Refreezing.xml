@@ -19,16 +19,16 @@
 	<Algorithm language="Cyml" platform="" filename="algo/pyx/Refreezing.pyx" />
 	<Parametersets>
 		<Parameterset name="paramerterSet1" description="set Parameters for TempMax unit" >
-            <Param name="P_Tmf">0.5</Param>
-            <Param name="P_SWrf">0.01</Param>
+            		<Param name="P_Tmf">0.5</Param>
+            		<Param name="P_SWrf">0.01</Param>
 		</Parameterset>
 	</Parametersets>
 	<Testsets>
-        <Testset name="check snow model" parameterset = "paramerterSet1" description="some values in there" >
-        	<Test name ="test_snow1">
+        	<Testset name="check snow model" parameterset = "paramerterSet1" description="some values in there" >
+        		<Test name ="test_snow1">
 				<InputValue name="tavg">0.279</InputValue>
-			    <OutputValue name="Mrf" precision ="2">45.6</OutputValue>
-        	</Test>
-        </Testset>
+				<OutputValue name="Mrf" precision ="2">45.6</OutputValue>
+        		</Test>
+        	</Testset>
 	</Testsets>
 </ModelUnit>
