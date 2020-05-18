@@ -101,19 +101,19 @@
 	</Composition>
 
 	<Parametersets>
-		<Parameterset name="paramerterSet1" description="set Parameters for TempMax unit" >
-            <Param name="P_Tmf">0.5</Param>
-            <Param name="P_DKmax">1.5</Param>
-			<Param name="P_Kmin">2.0</Param>
-			<Param name="P_tsmax">-2.0</Param>
-			<Param name="P_trmax">1.0</Param>
-			<Param name="SWrf">0.01</Param>
-			<Param name="Pns">100.</Param>
-			<Param name="E">0.02</Param>
-			<Param name="prof">10.</Param>
-			<Param name="tminseuil">-0.5</Param>
-			<Param name="tmaxseuil">0.</Param>
-		</Parameterset>
+	    <Parameterset name="paramerterSet1" description="set Parameters for TempMax unit" >
+                <Param name="P_Tmf">0.5</Param>
+                <Param name="P_DKmax">1.5</Param>
+		<Param name="P_Kmin">2.0</Param>
+		<Param name="P_tsmax">-2.0</Param>
+		<Param name="P_trmax">1.0</Param>
+		<Param name="SWrf">0.01</Param>
+		<Param name="Pns">100.</Param>
+		<Param name="E">0.02</Param>
+		<Param name="prof">10.</Param>
+		<Param name="tminseuil">-0.5</Param>
+		<Param name="tmaxseuil">0.</Param>
+	    </Parameterset>
 	</Parametersets>
 
 </ModelComposition>
