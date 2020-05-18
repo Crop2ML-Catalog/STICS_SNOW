@@ -1,0 +1,12 @@
+Name;Definition;Unit;min.;max.
+tsmax ;maximum daily air temperature (tmax) below which all precipitation is assumed to be snow;degreeC;-1;-0.5
+trmax;tmax above which all precipitation is assumed to be rain;degreeC;0.5;1.5
+DKmax;difference between the maximum and the minimum melting rates;mm.degreeC.d-1;1;2
+Kmin;minimum melting rate on 21 December;mm.degreeC.d-1;1.5;2.5
+Tmf;threshold temperature for snow melting;degreeC;0;1
+SWrf; degree-day temperature index for refreezing;mm.degreeC.d-1;0;0.01
+Pns;density of the new snow;kg.m-3;0.000005;100
+E; snow compaction parameter;mm.mm-1.d-1;0;0.05
+prof;snow cover threshold for snow insulation;cm;8;12
+tminseuil;minimum temperature when snow cover is higher than prof;degreeC;-1;0
+tmaxseuil;maximum temperature when snow cover is higher than prof;degreeC;-0.5;0.5

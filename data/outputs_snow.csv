@@ -1,0 +1,7 @@
+Name;Definition;Unit
+Snowaccu(n);daily snowfall accumulation (mm water equivalent);mm.d-1
+Snowmelt(n);daily snowmelt (mm water equivalent);mm.d-1
+Sdepth(n);daily snow cover depth;m
+preciprec(n);recalculated daily precipitation;mm.d-1
+tminrec(n);recalculated daily minimum temperature;degreeC
+tmaxrec(n);recalculated daily maximum temperature;degreeC
