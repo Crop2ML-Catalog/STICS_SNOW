@@ -8,9 +8,9 @@ def model_snowdry(float Sdry_t1=0.0,
 
     water in solid state in the snow cover Calculation
     Author: STICS
-    Reference: -
+    Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
     Institution: INRA
-    Abstract: -
+    Abstract: water in solid state in the snow cover
 
     """
     cdef float Sdry

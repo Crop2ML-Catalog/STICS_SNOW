@@ -1,13 +1,13 @@
 tmaxrec=tmax
-if (Sdepth_cm  > P_prof):
-    if(tmax  < P_tminseuil):
-        tmaxrec=P_tminseuil
+if (Sdepth_cm  > prof):
+    if(tmax  < tminseuil):
+        tmaxrec=tminseuil
     else:
-        if (tmax  > P_tmaxseuil):
-            tmaxrec=P_tmaxseuil
+        if (tmax  > tmaxseuil):
+            tmaxrec=tmaxseuil
 else:
     if (Sdepth_cm  > 0.0):
         if (tmax  <= 0.0):
-            tmaxrec=P_tmaxseuil-(1-(Sdepth_cm/P_prof))*(-tmax)
+            tmaxrec=tmaxseuil-(1-(Sdepth_cm/prof))*(-tmax)
         else:
             tmaxrec=0.0

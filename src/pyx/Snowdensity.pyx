@@ -8,9 +8,9 @@ def model_snowdensity(float ps_t1=0.0,
 
     Density of snow cover calculation
     Author: STICS
-    Reference: -
+    Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
     Institution: INRA
-    Abstract: -
+    Abstract: density of snow cover
 
     """
     cdef float ps

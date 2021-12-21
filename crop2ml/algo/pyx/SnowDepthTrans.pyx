@@ -1,1 +1,1 @@
-Sdepth_cm=Sdepth*P_Pns
+Sdepth_cm=Sdepth*Pns

@@ -6,9 +6,9 @@ def model_tavg(float tmin=0.0,
 
     Mean temperature  calculation
     Author: STICS
-    Reference: -
+    Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
     Institution: INRA
-    Abstract: -
+    Abstract: It simulates the depth of snow cover and recalculate weather data
 
     """
     cdef float tavg
