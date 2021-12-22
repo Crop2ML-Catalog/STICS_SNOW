@@ -2,11 +2,12 @@
 <!DOCTYPE ModelUnit PUBLIC " " "https://raw.githubusercontent.com/AgriculturalModelExchangeInitiative/crop2ml/master/ModelUnit.dtd">
 <ModelUnit modelid="STICS.Snow.Melting" name="Melting" timestep="1" version="1.0">
 	<Description>
-		<Title>snow in the process of melting</Title>
+		<Title>Snow melting Model</Title>
 		<Authors>STICS</Authors>
 		<Institution>INRA</Institution>
 		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>
-		<Abstract>It simulates snow in the process of melting</Abstract>
+		<Abstract>It simulates the snow in the process of melting</Abstract>
+		<ShortDescription>It simulates the snow in the process of melting</ShortDescription>
 	</Description>
 	<Inputs>
 		<Input name="jul" description="current day of year for the calculation" inputtype="variable" variablecategory="auxiliary" datatype="INT" default="0" min="0" max="366" unit="d" uri=""/>

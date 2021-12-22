@@ -2,7 +2,7 @@
 <!DOCTYPE ModelUnit PUBLIC " " "https://raw.githubusercontent.com/AgriculturalModelExchangeInitiative/crop2ml/master/ModelUnit.dtd">
 <ModelUnit modelid="STICS.Snow.SnowDepth" name="SnowDepth" timestep="1" version="1.0">
 	<Description>
-		<Title>snow cover depth Calculation</Title>
+		<Title>Snow cover depth Calculation</Title>
 		<Authors>STICS</Authors>
 		<Institution>INRA</Institution>
 		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>

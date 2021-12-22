@@ -2,11 +2,12 @@
 <!DOCTYPE ModelUnit PUBLIC " " "https://raw.githubusercontent.com/AgriculturalModelExchangeInitiative/crop2ml/master/ModelUnit.dtd">
 <ModelUnit modelid="STICS.Snow.SnowAccumulation" name="SnowAccumulation" timestep="1" version="1.0">
 	<Description>
-		<Title>snowfall accumulation  calculation</Title>
+		<Title>Snowfall accumulation  calculation</Title>
 		<Authors>STICS</Authors>
 		<Institution>INRA</Institution>
 		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>
 		<Abstract>It simulates the snowfall accumulation</Abstract>
+		<ShortDescription>It simulates the snowfall accumulation</ShortDescription>
 	</Description>
 	<Inputs>
 		<Input name="tsmax" description="maximum daily air temperature (tmax) below which all precipitation is assumed to be snow" inputtype="parameter" parametercategory="constant" datatype="DOUBLE" default="0.0" min="0.0" max="1000" unit="degC" uri=""/>

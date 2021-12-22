@@ -2,11 +2,12 @@
 <!DOCTYPE ModelUnit PUBLIC " " "https://raw.githubusercontent.com/AgriculturalModelExchangeInitiative/crop2ml/master/ModelUnit.dtd">
 <ModelUnit modelid="STICS.Snow.Tavg" name="Tavg" timestep="1" version="1.0">
 	<Description>
-		<Title>Mean temperature  calculation</Title>
+		<Title>Mean temperature calculation</Title>
 		<Authors>STICS</Authors>
 		<Institution>INRA</Institution>
 		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>
-		<Abstract>It simulates the depth of snow cover and recalculate weather data</Abstract>
+		<Abstract>Calculate the daily mean temperature</Abstract>
+		<ShortDescription>Calculate the daily mean temperature</ShortDescription>
 	</Description>
 	<Inputs>
 		<Input name="tmin" description="current minimum air temperature" inputtype="variable" variablecategory="auxiliary" datatype="DOUBLE" default="0.0" min="0.0" max="500.0" unit="degC" uri=""/>
