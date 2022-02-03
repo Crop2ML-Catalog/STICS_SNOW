@@ -1,2 +1,2 @@
 # STICS_SNOW
-Snow process in STICS model
+The Snow process in STICS model
