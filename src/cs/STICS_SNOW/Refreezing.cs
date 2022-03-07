@@ -21,11 +21,26 @@ public class Refreezing
     {
         //- Name: Refreezing -Version: 1.0, -Time step: 1
         //- Description:
-    //            * Title: snowfall accumulation  calculation
-    //            * Author: STICS
+    //            * Title: Snowfall refreezing  Model
+    //            * Author: Guillaume Jégo,
+    //            Martin Chantigny,
+    //            Elizabeth Pattey,
+    //            Gilles Bélanger,
+    //            Philippe Rochette,
+    //            Anne Vanasse,
+    //            Claudia Goyer
+    //		
     //            * Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
-    //            * Institution: INRA
-    //            * Abstract: It simulates the depth of snow cover and recalculate weather data
+    //            * Institution: Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				CanadaLaval University,
+    //				Agriculture and Agri-Food Canada
+    //		
+    //            * ExtendedDescription: It simulates the snow in the process of refreezing
+    //            * ShortDescription: It simulates the snow in the process of refreezing
         //- inputs:
     //            * name: tavg
     //                          ** description : average temperature

@@ -27,11 +27,26 @@ public class TempMin
     {
         //- Name: TempMin -Version: 1.0, -Time step: 1
         //- Description:
-    //            * Title: Minimum temperature  calculation
-    //            * Author: STICS
+    //            * Title: Model of Minimum temperature recalculation
+    //            * Author: Guillaume Jégo,
+    //            Martin Chantigny,
+    //            Elizabeth Pattey,
+    //            Gilles Bélanger,
+    //            Philippe Rochette,
+    //            Anne Vanasse,
+    //            Claudia Goyer
+    //		
     //            * Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
-    //            * Institution: INRA
-    //            * Abstract: recalculation of minimum temperature
+    //            * Institution: Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				CanadaLaval University,
+    //				Agriculture and Agri-Food Canada
+    //		
+    //            * ExtendedDescription: It estimates the minimum temperature
+    //            * ShortDescription: It estimates the new minimum temperature
         //- inputs:
     //            * name: Sdepth_cm
     //                          ** description : snow depth

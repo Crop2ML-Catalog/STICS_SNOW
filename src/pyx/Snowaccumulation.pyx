@@ -6,11 +6,26 @@ def model_snowaccumulation(float tsmax=0.0,
                            float precip=0.0):
     """
 
-    snowfall accumulation  calculation
-    Author: STICS
+    Snowfall accumulation  calculation
+    Author: Guillaume Jégo,
+            Martin Chantigny,
+            Elizabeth Pattey,
+            Gilles Bélanger,
+            Philippe Rochette,
+            Anne Vanasse,
+            Claudia Goyer
+		
     Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
-    Institution: INRA
-    Abstract: It simulates the depth of snow cover and recalculate weather data
+    Institution: Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				CanadaLaval University,
+				Agriculture and Agri-Food Canada
+		
+    ExtendedDescription: It simulates the snowfall accumulation
+    ShortDescription: It simulates the snowfall accumulation
 
     """
     cdef float Snowaccu

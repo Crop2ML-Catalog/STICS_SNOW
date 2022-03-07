@@ -7,11 +7,26 @@ def model_tempmax(float Sdepth_cm=0.0,
                   float tmaxseuil=0.0):
     """
 
-    Maximum temperature  recalculation
-    Author: STICS
+    Model of Maximum temperature recalculation
+    Author: Guillaume Jégo,
+            Martin Chantigny,
+            Elizabeth Pattey,
+            Gilles Bélanger,
+            Philippe Rochette,
+            Anne Vanasse,
+            Claudia Goyer
+		
     Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
-    Institution: INRA
-    Abstract: recalculation of maximum temperature
+    Institution: Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				CanadaLaval University,
+				Agriculture and Agri-Food Canada
+		
+    ExtendedDescription: It estimates the new maximum temperature
+    ShortDescription: It estimates the new maximum temperature
 
     """
     cdef float tmaxrec

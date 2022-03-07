@@ -19,42 +19,42 @@ class SnowWrapper
         loadParameters();
     }
 
-        double Tmf = 0.0d;
+        double tmaxseuil = 0.0d;
+    double tminseuil = 0.0d;
+    double prof = 0.0d;
+    double E = 0.0d;
+    double rho = 100.0d;
+    double Pns = 100.0d;
+    double Kmin = 0.0d;
+    double Tmf = 0.0d;
     double SWrf = 0.0d;
     double tsmax = 0.0d;
     double DKmax = 0.0d;
     double trmax = 0.0d;
-    double rho = 100.0d;
-    double Kmin = 0.0d;
-    double Pns = 100.0d;
-    double tmaxseuil = 0.0d;
-    double tminseuil = 0.0d;
-    double prof = 0.0d;
-    double E = 0.0d;
 
-    public double ps{ get { return s.ps;}} 
+    public double Sdry{ get { return s.Sdry;}} 
      
     public double Sdepth{ get { return s.Sdepth;}} 
      
-    public double Sdry{ get { return s.Sdry;}} 
-     
     public double Swet{ get { return s.Swet;}} 
      
-    public double tminrec{ get { return s.tminrec;}} 
+    public double ps{ get { return s.ps;}} 
      
     public double tmaxrec{ get { return s.tmaxrec;}} 
      
-    public double preciprec{ get { return s.preciprec;}} 
-     
     public double Snowmelt{ get { return s.Snowmelt;}} 
+     
+    public double tminrec{ get { return s.tminrec;}} 
+     
+    public double preciprec{ get { return s.preciprec;}} 
      
     public double Sdepth_cm{ get { return s.Sdepth_cm;}} 
      
-    public double M{ get { return r.M;}} 
+    public double Mrf{ get { return r.Mrf;}} 
      
     public double Snowaccu{ get { return r.Snowaccu;}} 
      
-    public double Mrf{ get { return r.Mrf;}} 
+    public double M{ get { return r.M;}} 
      
     public double tavg{ get { return a.tavg;}} 
      
@@ -78,26 +78,26 @@ class SnowWrapper
 
     private void loadParameters()
     {
+        snowComponent.tmaxseuil = tmaxseuil;
+        snowComponent.tminseuil = tminseuil;
+        snowComponent.prof = prof;
+        snowComponent.E = E;
+        snowComponent.rho = rho;
+        snowComponent.Pns = Pns;
+        snowComponent.Kmin = Kmin;
         snowComponent.Tmf = Tmf;
         snowComponent.SWrf = SWrf;
         snowComponent.tsmax = tsmax;
         snowComponent.DKmax = DKmax;
         snowComponent.trmax = trmax;
-        snowComponent.rho = rho;
-        snowComponent.Kmin = Kmin;
-        snowComponent.Pns = Pns;
-        snowComponent.tmaxseuil = tmaxseuil;
-        snowComponent.tminseuil = tminseuil;
-        snowComponent.prof = prof;
-        snowComponent.E = E;
     }
 
-    public void EstimateSnow(int jul, double precip, double tmax, double tmin)
+    public void EstimateSnow(int jul, double tmin, double tmax, double precip)
     {
         a.jul = jul;
-        a.precip = precip;
-        a.tmax = tmax;
         a.tmin = tmin;
+        a.tmax = tmax;
+        a.precip = precip;
         snowComponent.CalculateModel(s,s1, r, a, ex);
     }
 

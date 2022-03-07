@@ -7,11 +7,26 @@ def model_tempmin(float Sdepth_cm=0.0,
                   float tmaxseuil=0.0):
     """
 
-    Minimum temperature  calculation
-    Author: STICS
+    Model of Minimum temperature recalculation
+    Author: Guillaume Jégo,
+            Martin Chantigny,
+            Elizabeth Pattey,
+            Gilles Bélanger,
+            Philippe Rochette,
+            Anne Vanasse,
+            Claudia Goyer
+		
     Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
-    Institution: INRA
-    Abstract: recalculation of minimum temperature
+    Institution: Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				CanadaLaval University,
+				Agriculture and Agri-Food Canada
+		
+    ExtendedDescription: It estimates the minimum temperature
+    ShortDescription: It estimates the new minimum temperature
 
     """
     cdef float tminrec

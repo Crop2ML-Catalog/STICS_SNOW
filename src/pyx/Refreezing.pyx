@@ -5,11 +5,26 @@ def model_refreezing(float tavg=0.0,
                      float SWrf=0.0):
     """
 
-    snowfall accumulation  calculation
-    Author: STICS
+    Snowfall refreezing  Model
+    Author: Guillaume Jégo,
+            Martin Chantigny,
+            Elizabeth Pattey,
+            Gilles Bélanger,
+            Philippe Rochette,
+            Anne Vanasse,
+            Claudia Goyer
+		
     Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
-    Institution: INRA
-    Abstract: It simulates the depth of snow cover and recalculate weather data
+    Institution: Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				CanadaLaval University,
+				Agriculture and Agri-Food Canada
+		
+    ExtendedDescription: It simulates the snow in the process of refreezing
+    ShortDescription: It simulates the snow in the process of refreezing
 
     """
     cdef float Mrf

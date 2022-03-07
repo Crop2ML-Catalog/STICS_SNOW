@@ -8,11 +8,26 @@ def model_snowwet(float Swet_t1=0.0,
                   float Sdry=0.0):
     """
 
-    water in liquid state in the snow cover calculation
-    Author: STICS
+    The Snow wet Model
+    Author: Guillaume Jégo,
+            Martin Chantigny,
+            Elizabeth Pattey,
+            Gilles Bélanger,
+            Philippe Rochette,
+            Anne Vanasse,
+            Claudia Goyer
+		
     Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
-    Institution: INRA
-    Abstract: water in liquid state in the snow cover
+    Institution: Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				CanadaLaval University,
+				Agriculture and Agri-Food Canada
+		
+    ExtendedDescription: It estimates the water in liquid state in the snow cover
+    ShortDescription: It estimates the water in liquid state in the snow cover
 
     """
     cdef float Swet

@@ -3,10 +3,24 @@
 <ModelComposition name="Snow" id="STICS.Snow" version="1.0" timestep ="1">
 	<Description>
 		<Title>Snow model</Title>
-		<Authors>STICS</Authors>
-		<Institution>INRA</Institution>
+		<Authors>Guillaume Jégo,
+            Martin Chantigny,
+            Elizabeth Pattey,
+            Gilles Bélanger,
+            Philippe Rochette,
+            Anne Vanasse,
+            Claudia Goyer
+		</Authors>
+		<Institution>Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				CanadaLaval University,
+				Agriculture and Agri-Food Canada
+		</Institution>
 		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>
-		<Abstract>It simulates the depth of snow cover and recalculate weather data</Abstract>
+		<ExtendedDescription>It simulates the depth of snow cover and recalculate weather data</ExtendedDescription>
 		<ShortDescription>It simulates the depth of snow cover and recalculate weather data</ShortDescription>
 	</Description>
 

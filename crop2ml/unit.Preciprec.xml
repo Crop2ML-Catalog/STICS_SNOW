@@ -3,10 +3,24 @@
 <ModelUnit modelid="STICS.Snow.Preciprec" name="Preciprec" timestep="1" version="1.0">
 	<Description>
 		<Title>Precipitation ReCalculation Model</Title>
-		<Authors>STICS</Authors>
-		<Institution>INRA</Institution>
+		<Authors>Guillaume Jégo,
+            Martin Chantigny,
+            Elizabeth Pattey,
+            Gilles Bélanger,
+            Philippe Rochette,
+            Anne Vanasse,
+            Claudia Goyer
+		</Authors>
+		<Institution>Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				CanadaLaval University,
+				Agriculture and Agri-Food Canada
+		</Institution>
 		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>
-		<Abstract>It recalculates the daily precipitation</Abstract>
+		<ExtendedDescription>It recalculates the daily precipitation</ExtendedDescription>
 		<ShortDescription>Recalculation of precipitation</ShortDescription>
 	</Description>
 	<Inputs>

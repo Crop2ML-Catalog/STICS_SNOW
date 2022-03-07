@@ -3,10 +3,24 @@
 <ModelUnit modelid="STICS.Snow.SnowWet" name="SnowWet" timestep="1" version="1.0">
 	<Description>
 		<Title>The Snow wet Model</Title>
-		<Authors>STICS</Authors>
-		<Institution>INRA</Institution>
+		<Authors>Guillaume Jégo,
+            Martin Chantigny,
+            Elizabeth Pattey,
+            Gilles Bélanger,
+            Philippe Rochette,
+            Anne Vanasse,
+            Claudia Goyer
+		</Authors>
+		<Institution>Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				CanadaLaval University,
+				Agriculture and Agri-Food Canada
+		</Institution>
 		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>
-		<Abstract>It estimates the water in liquid state in the snow cover</Abstract>
+		<ExtendedDescription>It estimates the water in liquid state in the snow cover</ExtendedDescription>
 		<ShortDescription>It estimates the water in liquid state in the snow cover</ShortDescription>
 	</Description>
 	<Inputs>

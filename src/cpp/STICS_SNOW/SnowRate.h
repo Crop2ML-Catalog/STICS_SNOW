@@ -9,17 +9,17 @@ using namespace std;
 class SnowRate
 {
     private:
-        double M;
-        double Snowaccu;
         double Mrf;
+        double Snowaccu;
+        double M;
     public:
         SnowRate();
-        double getM();
-        void setM(double _M);
-        double getSnowaccu();
-        void setSnowaccu(double _Snowaccu);
         double getMrf();
         void setMrf(double _Mrf);
+        double getSnowaccu();
+        void setSnowaccu(double _Snowaccu);
+        double getM();
+        void setM(double _M);
 
 };
 #endif

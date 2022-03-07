@@ -10,20 +10,20 @@ class SnowAuxiliary
 {
     private:
         int jul;
-        double precip;
-        double tmax;
         double tmin;
+        double tmax;
+        double precip;
         double tavg;
     public:
         SnowAuxiliary();
         int getjul();
         void setjul(int _jul);
-        double getprecip();
-        void setprecip(double _precip);
-        double gettmax();
-        void settmax(double _tmax);
         double gettmin();
         void settmin(double _tmin);
+        double gettmax();
+        void settmax(double _tmax);
+        double getprecip();
+        void setprecip(double _precip);
         double gettavg();
         void settavg(double _tavg);
 

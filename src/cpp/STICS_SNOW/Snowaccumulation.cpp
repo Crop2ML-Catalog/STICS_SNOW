@@ -21,11 +21,26 @@ void Snowaccumulation::Calculate_Model(SnowState& s, SnowState& s1, SnowRate& r,
 {
     //- Name: SnowAccumulation -Version: 1.0, -Time step: 1
     //- Description:
-    //            * Title: snowfall accumulation  calculation
-    //            * Author: STICS
+    //            * Title: Snowfall accumulation  calculation
+    //            * Author: Guillaume Jégo,
+    //            Martin Chantigny,
+    //            Elizabeth Pattey,
+    //            Gilles Bélanger,
+    //            Philippe Rochette,
+    //            Anne Vanasse,
+    //            Claudia Goyer
+    //		
     //            * Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
-    //            * Institution: INRA
-    //            * Abstract: It simulates the depth of snow cover and recalculate weather data
+    //            * Institution: Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				Agriculture and Agri-Food Canada,
+    //				CanadaLaval University,
+    //				Agriculture and Agri-Food Canada
+    //		
+    //            * ExtendedDescription: It simulates the snowfall accumulation
+    //            * ShortDescription: It simulates the snowfall accumulation
     //- inputs:
     //            * name: tsmax
     //                          ** description : maximum daily air temperature (tmax) below which all precipitation is assumed to be snow

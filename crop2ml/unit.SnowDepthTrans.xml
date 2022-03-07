@@ -3,10 +3,24 @@
 <ModelUnit modelid="STICS.Snow.SnowDepthTrans" name="SnowDepthTrans" timestep="1" version="1.0">
 	<Description>
 		<Title>Snow cover depth conversion</Title>
-		<Authors>STICS</Authors>
-		<Institution>INRA</Institution>
+		<Authors>Guillaume Jégo,
+            Martin Chantigny,
+            Elizabeth Pattey,
+            Gilles Bélanger,
+            Philippe Rochette,
+            Anne Vanasse,
+            Claudia Goyer
+		</Authors>
+		<Institution>Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				CanadaLaval University,
+				Agriculture and Agri-Food Canada
+		</Institution>
 		<Reference>doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002</Reference>
-		<Abstract>It converts the snow cover depth in cm</Abstract>
+		<ExtendedDescription>It converts the snow cover depth in cm</ExtendedDescription>
 		<ShortDescription>It converts the snow cover depth in cm</ShortDescription>
 	</Description>
 	<Inputs>

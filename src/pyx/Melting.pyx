@@ -7,11 +7,26 @@ def model_melting(int jul=0,
                   float tavg=0.0):
     """
 
-    snow in the process of melting
-    Author: STICS
+    Snow melting Model
+    Author: Guillaume Jégo,
+            Martin Chantigny,
+            Elizabeth Pattey,
+            Gilles Bélanger,
+            Philippe Rochette,
+            Anne Vanasse,
+            Claudia Goyer
+		
     Reference: doi:http://dx.doi.org/10.1016/j.agrformet.2014.05.002
-    Institution: INRA
-    Abstract: It simulates snow in the process of melting
+    Institution: Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				Agriculture and Agri-Food Canada,
+				CanadaLaval University,
+				Agriculture and Agri-Food Canada
+		
+    ExtendedDescription: It simulates the snow in the process of melting
+    ShortDescription: It simulates the snow in the process of melting
 
     """
     cdef float M

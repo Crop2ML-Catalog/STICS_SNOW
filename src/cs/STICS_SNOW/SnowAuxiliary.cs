@@ -4,9 +4,9 @@ using System.Collections.Generic;
 public class SnowAuxiliary 
 {
     private int _jul;
-    private double _precip;
-    private double _tmax;
     private double _tmin;
+    private double _tmax;
+    private double _precip;
     private double _tavg;
     
     public SnowAuxiliary() { }
@@ -18,9 +18,9 @@ public class SnowAuxiliary
     {
     
     _jul = toCopy._jul;
-    _precip = toCopy._precip;
-    _tmax = toCopy._tmax;
     _tmin = toCopy._tmin;
+    _tmax = toCopy._tmax;
+    _precip = toCopy._precip;
     _tavg = toCopy._tavg;
     }
     }
@@ -29,20 +29,20 @@ public class SnowAuxiliary
             get { return this._jul; }
             set { this._jul= value; } 
         }
-    public double precip
+    public double tmin
         {
-            get { return this._precip; }
-            set { this._precip= value; } 
+            get { return this._tmin; }
+            set { this._tmin= value; } 
         }
     public double tmax
         {
             get { return this._tmax; }
             set { this._tmax= value; } 
         }
-    public double tmin
+    public double precip
         {
-            get { return this._tmin; }
-            set { this._tmin= value; } 
+            get { return this._precip; }
+            set { this._precip= value; } 
         }
     public double tavg
         {
